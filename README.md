@@ -12,8 +12,11 @@ With Audacity the save options should look like this.
 ![Alt text for the image](/audacity.png)
 
 With FFmpeg you should convert your MP3 with the following command:
+
 ffmpeg -i -ac 2 -codec:a libmp3lame -b:a 48k -ar 24000
+
 Or you can convert the MP3 online HERE
+
 Next, upload the converted MP3 to the website and check if you can open it with your browser.
 
 Now with Home Assistant you can test it by going to Developer Tools / Services and in the “Service” field enter notify.alexa_media
@@ -39,14 +42,21 @@ AUDACITY
 **************************************************************************************************************************
 
 CHANNELS: STEREO
+
 SAMPLE RATE: 24000 HZ
+
 BIT RATE MODE: CONSTANT
+
 QUALITY: 48 KBPS
+
 EXPORT: ENTIRE PROJECT
 
 CTRL A
+
 EFFECT -> VOLUME & COMPRESSION -> AMPLIFY
+
 NEW PEAK AMPLITUDE (DB): 3 DB
+
 ALLOW CLIPPING
 
 ***************************************************************************************************************************
