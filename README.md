@@ -36,7 +36,7 @@ TEXT TO SOUND FILE
 **************************************************************************************************************************
 https://www.narakeet.com/tools/#text-to-audio-online-voice-generator
 https://www.getvoila.ai/ai-translate/urdu-to-english
-
+https://developer.amazon.com/en-US/docs/alexa/custom-skills/ask-soundlibrary.html
 **************************************************************************************************************************
 AUDACITY
 **************************************************************************************************************************
